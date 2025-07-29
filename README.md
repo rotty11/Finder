@@ -1,6 +1,6 @@
 # Finder
 
-Finder is a collection of different wrapper approaches to EEG classification. These methods combine optimization methods for feature selection and classification algorithms. The application includes a script whose objective is to analyze the appoaches to find those that present better trade-off between execution time, energy consumption and accuracy rate.
+Finder is a collection wrapper approaches to EEG classification. These methods combine optimization methods for feature selection and classification algorithms. The application includes a script whose objective is to analyze the appoaches to find those that present better trade-off between execution time, energy consumption and accuracy rate.
 
 ## Version
 
@@ -12,7 +12,7 @@ Juan José Escobar ([jjescobar@ugr.es](mailto:jjescobar@ugr.es)) and Manuel Sán
 
 ## Requirements
 
-EEGxplorer requires Python 3.0.9 or superior.
+Finder requires Python 3.0.9 or superior.
 
 ## Usage
 
@@ -54,9 +54,9 @@ This work has been funded by:
 * *European Regional Development Fund (ERDF)*.
 
 <div style="text-align: right">
-  <img src="https://raw.githubusercontent.com/rotty11/Atom/main/docs/logos/miciu.jpg" height="60">
-  <img src="https://raw.githubusercontent.com/rotty11/Atom/main/docs/logos/erdf.png" height="60">
-  <img src="https://raw.githubusercontent.com/rotty11/Atom/main/docs/logos/ugr.jpg" height="60">
+  <img src="https://raw.githubusercontent.com/rotty11/Finder/main/docs/logos/miciu.jpg" height="60">
+  <img src="https://raw.githubusercontent.com/rotty11/Finder/main/docs/logos/erdf.png" height="60">
+  <img src="https://raw.githubusercontent.com/rotty11/Finder/main/docs/logos/ugr.jpg" height="60">
 </div>
 
 ## License
