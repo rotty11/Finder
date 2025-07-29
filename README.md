@@ -16,7 +16,16 @@ EEGxplorer requires Python 3.0.9 or superior.
 
 ## Usage
 
-The document `user_guide.pdf` contains the instructions necessary to run the script.
+The document `user_guide.pdf` contains the instructions necessary to run the script. Here the available algorithms:
+
+* Bioinspired methods:
+  1. Genetic Algorithm (GA).
+  1. Particle Swarm Optimization (PSO).
+* Run with `mpirun --bind-to none --map-by node --host [LIST_OF_HOSTS] ./pso [ARGS]`.
+* ARGS:
+  1. `nP`: Number of particles in the swarm.
+  2. `nH`: Number of CPU threads to compute.
+  1. `nI`: Number of iterations of the BPSO algorithm.
 
 ## Output
 
