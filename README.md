@@ -50,7 +50,7 @@ This work has been funded by:
 
 * Andalusian *Consejería de Universidad, Investigación e Innovación* under grant number DGP_PIDI_2024_01887.
 * Spanish *Ministerio de Ciencia, Innovación y Universidades* under grants number PID2022-137461NB-C32 and PID2022-137461NB-C31.
-* Paraguayan *National Council of Science and Technology (CONACYT) under grant BINV04-68*.
+* Paraguayan *National Council of Science and Technology (CONACYT) under grant number BINV04-68*.
 * *European Regional Development Fund (ERDF)*.
 
 <div style="text-align: right">
