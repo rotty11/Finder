@@ -1,6 +1,6 @@
-# Atom
+# Finder
 
-Atom is a parallel and distributed Binary Particle Swarm Optimization (BPSO) algorithm to EEG classification. The bioinspired procedure follows a master-worker scheme where the particles are distributed among the nodes of a cluster. Inside of each node, the application is able to parallelize the evaluation of the particles using all the CPU threads simultaneously, which provides 2 levels of parallelism.
+Finder is a collection of different wrapper approaches to EEG classification. These methods combine optimization methods for feature selection (GA, PSO, ABC, SA and ACO) and classification algorithms. The application includes a script whose objective is to analyze the appoaches to find those that present better trade-off between execution time, energy consumption and accuracy rate.
 
 ## Version
 
@@ -8,42 +8,27 @@ Atom is a parallel and distributed Binary Particle Swarm Optimization (BPSO) alg
 
 ## Author
 
-Juan José Escobar ([jjescobar@ugr.es](mailto:jjescobar@ugr.es)) and Jesús López Rodríguez ([jlopezpeque@gmail.com](mailto:jlopezpeque@gmail.com))
+Juan José Escobar ([jjescobar@ugr.es](mailto:jjescobar@ugr.es)) and Manuel Sánchez Jiménez.
 
 ## Requirements
 
-Atom requires a GCC compiler. It also depends on the following APIs and libraries:
-
-* [OpenMPI](https://www.open-mpi.org/doc/current/).
+EEGxplorer requires Python 3.0.9 or superior.
 
 ## Usage
 
-To build the application, a Makefile and Dockerfile are provided.
-
-* Compile with `make -j N_FEATURES=3600`.
-* Run with `mpirun --bind-to none --map-by node --host [LIST_OF_HOSTS] ./pso [ARGS]`.
-* ARGS:
-  1. `nP`: Number of particles in the swarm.
-  2. `nH`: Number of CPU threads to compute.
-  1. `nI`: Number of iterations of the BPSO algorithm.
-  1. `cC`: Value of the cognitive component.
-  1. `cI`: Value of the inertia component.
-  1. `cS`: Value of the social component.
-  1. `k`: Number of Neighbors of the KNN algorithm.
-  1. `sI`: Enable the use of OpenMP SIMD directive.
-  1. `pC`: Probability that the component of the position vector takes value 1.
+The document `user_guide.pdf` contains the instructions necessary to run the script.
 
 ## Output
 
-* Average and best classification rate.
-* Best feature subset.
+* Classification rate.
+* Energy consumption.
 * Execution time.
 
 ## Publications
 
 #### Conferences
 
-1. J.J. Escobar, J. López-Rodríguez, D. García-Gil, R. Morcillo-Jiménez, B. Prieto, A. Ortiz and D. Kimovski. *Analysis of a Parallel and Distributed BPSO Algorithm for EEG Classification: Impact on Energy, Time and Accuracy*. In: **11th International Conference on Bioinformatics and Biomedical Engineering. IWBBIO'2024**. Gran Canaria, Spain: Springer, July 2024, pp. 77-90. DOI: [10.1007/978-3-031-64629-4_6](https://doi.org/10.1007/978-3-031-64629-4_6).
+1. J.J. Escobar, D. Aquino-Brítez, B. Prieto, R.J. Martínez, G.M. Ortiz and A. Ortiz. *Balancing Accuracy and Energy Efficiency in EEG Classification: An Evaluation of Wrapper-based Approaches*. In: **To be determined**. 2025.
 
 ## Funding
 
@@ -66,6 +51,6 @@ This work has been funded by:
 
 ## Copyright
 
-Atom © 2024 [University of Granada](https://www.ugr.es/).
+Finder © 2025 [University of Granada](https://www.ugr.es/).
 
 If you use this software, please cite it.
