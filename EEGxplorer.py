@@ -1,3 +1,19 @@
+# This file is subject to the terms and conditions defined in
+# file 'LICENSE', which is part of Finder repository.
+#
+# This work has been funded by:
+#
+# Andalusian 'Consejería de Universidad, Investigación e Innovación' under grant number DGP_PIDI_2024_01887.
+# Spanish 'Ministerio de Ciencia, Innovación y Universidades' under grants number PID2022-137461NB-C32 and PID2022-137461NB-C31.
+# Paraguayan 'National Council of Science and Technology (CONACYT)' under grant number BINV04-68.
+# European Regional Development Fund (ERDF).
+#
+# File: EEGxplorer.py
+# Authors: Juan José Escobar Pérez and Manuel Sánchez Jiménez
+# Date: 26/06/2025
+# Brief: A collection of wrapper approaches to EEG classification
+# Copyright: Finder (c) 2025 University of Granada
+
 import argparse
 import numpy as np
 import pandas as pd
