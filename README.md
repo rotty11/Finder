@@ -1,6 +1,6 @@
 # Finder
 
-Finder is a collection of different wrapper approaches to EEG classification. These methods combine optimization methods for feature selection (GA, PSO, ABC, SA and ACO) and classification algorithms. The application includes a script whose objective is to analyze the appoaches to find those that present better trade-off between execution time, energy consumption and accuracy rate.
+Finder is a collection of different wrapper approaches to EEG classification. These methods combine optimization methods for feature selection and classification algorithms. The application includes a script whose objective is to analyze the appoaches to find those that present better trade-off between execution time, energy consumption and accuracy rate.
 
 ## Version
 
@@ -21,11 +21,16 @@ The document `user_guide.pdf` contains the instructions necessary to run the scr
 * Bioinspired methods:
   1. Genetic Algorithm (GA).
   1. Particle Swarm Optimization (PSO).
-* Run with `mpirun --bind-to none --map-by node --host [LIST_OF_HOSTS] ./pso [ARGS]`.
-* ARGS:
-  1. `nP`: Number of particles in the swarm.
-  2. `nH`: Number of CPU threads to compute.
-  1. `nI`: Number of iterations of the BPSO algorithm.
+  1. Simulated Annealing (SA).
+  1. Artificial Bee Colony (ABC).
+  1. Ant Colony Optimization (ACO).
+
+* Classification algorithms:
+  1. K-Nearest Neighbors (KNN).
+  1. Support Vector Machine (SVM).
+  1. Extreme Gradient Boosting (XGBM).
+  1. LightGBM.
+  1. Multilayer Perceptron (MLP).
 
 ## Output
 
