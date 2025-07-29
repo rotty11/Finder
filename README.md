@@ -1,6 +1,6 @@
 # Finder
 
-Finder is a collection wrapper approaches to EEG classification. These methods combine optimization methods for feature selection and classification algorithms. The application includes a script whose objective is to analyze the appoaches to find those that present better trade-off between execution time, energy consumption and accuracy rate.
+Finder is a collection of wrapper approaches to EEG classification which combine optimization methods for feature selection and classification algorithms. The application includes a script whose objective is to analyze the appoaches to find those that present better trade-off between execution time, energy consumption and accuracy rate.
 
 ## Version
 
@@ -16,7 +16,7 @@ Finder requires Python 3.0.9 or superior.
 
 ## Usage
 
-The document `user_guide.pdf` contains the instructions necessary to run the script. Here the available algorithms:
+The document `docs/user_guide.pdf` contains the instructions necessary to run the script. Here the available algorithms:
 
 * Bioinspired methods:
   1. Genetic Algorithm (GA).
