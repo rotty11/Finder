@@ -48,15 +48,16 @@ The document `docs/user_guide.pdf` contains the instructions necessary to run th
 
 This work has been funded by:
 
-* University of Granada under grant number PPJIA-2023-25.
-* Spanish *Ministerio de Ciencia, Innovación y Universidades* under grants number PID2022-137461NB-C32 and PID2020-119478GB-I00.
-* Spanish *Ministerio de Universidades* as part of the program of mobility stays for professors and researchers in foreign higher education and research centers under grant number CAS22/00332.
+* Andalusian *Consejería de Universidad, Investigación e Innovación* under grant number DGP_PIDI_2024_01887.
+* Spanish *Ministerio de Ciencia, Innovación y Universidades* under grants number PID2022-137461NB-C32 and PID2022-137461NB-C31.
+* Paraguayan *National Council of Science and Technology (CONACYT)*.
 * *European Regional Development Fund (ERDF)*.
 
 <div style="text-align: right">
+  <img src="https://raw.githubusercontent.com/rotty11/Finder/main/docs/logos/junta.png" height="60">
   <img src="https://raw.githubusercontent.com/rotty11/Finder/main/docs/logos/miciu.jpg" height="60">
   <img src="https://raw.githubusercontent.com/rotty11/Finder/main/docs/logos/erdf.png" height="60">
-  <img src="https://raw.githubusercontent.com/rotty11/Finder/main/docs/logos/ugr.jpg" height="60">
+  <img src="https://raw.githubusercontent.com/rotty11/Finder/main/docs/logos/conacyt.jpg" height="60">
 </div>
 
 ## License
